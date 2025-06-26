@@ -1,0 +1,40 @@
+{
+  "name": "@siroi/tsconfig",
+  "version": "1.0.1",
+  "description": "A collection of TypeScript configurations for different project types",
+  "main": "tsconfig.base.json",
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.browser-package.json",
+    "tsconfig.browser-app.json",
+    "tsconfig.server-package.json",
+    "tsconfig.server-app.json"
+  ],
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "browser",
+    "server",
+    "package",
+    "application"
+  ],
+  "author": "siroi",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Gao-pw/tsconfig-collection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gao-pw/tsconfig-collection/issues"
+  },
+  "homepage": "https://github.com/Gao-pw/tsconfig-collection#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
