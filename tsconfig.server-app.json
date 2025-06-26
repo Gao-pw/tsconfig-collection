@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "composite": false,
+    "tsBuildInfoFile": "./.build/tsconfig.server-app.tsbuildinfo",
+    "incremental": true,
+    "module": "CommonJS",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  }
+}
