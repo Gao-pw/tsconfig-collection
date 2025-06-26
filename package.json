@@ -1,6 +1,6 @@
 {
   "name": "@siroi/tsconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of TypeScript configurations for different project types",
   "main": "tsconfig.base.json",
   "files": [
@@ -34,6 +34,7 @@
     "typescript": "^5.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
